@@ -1,6 +1,5 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckSquare, Goal, Waves } from "lucide-react";
-import Image from 'next/image';
 
 const features = [
   {
@@ -32,15 +31,16 @@ export function SolutionSection() {
         </div>
 
         <div className="max-w-3xl mx-auto my-12">
-          <Card className="overflow-hidden">
+          <Card className="overflow-hidden shadow-lg">
             <div className="aspect-video bg-foreground relative">
-              <Image 
-                src="https://placehold.co/1280x720.png"
-                alt="Indicador Estratégia Chinesa em ação"
-                layout="fill"
-                objectFit="cover"
-                data-ai-hint="stock chart animation"
-              />
+              <iframe
+                className="absolute top-0 left-0 w-full h-full"
+                src="https://www.youtube.com/embed/Rrx_PoE8hKQ"
+                title="Apresentação Indicador Estratégia Chinesa"
+                frameBorder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                allowFullScreen
+              ></iframe>
             </div>
           </Card>
         </div>
