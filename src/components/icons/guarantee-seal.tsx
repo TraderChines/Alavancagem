@@ -10,15 +10,9 @@ export function GuaranteeSealIcon(props: SVGProps<SVGSVGElement>) {
       {...props}
     >
       <g>
-        {/* Shield with top decoration and black outline */}
+        {/* Shield with black outline */}
         <path
           d="M100 12 L175 42 V 110 C175 160, 100 195, 100 195 C100 195, 25 160, 25 110 V 42 Z"
-          fill="hsl(var(--card))"
-          stroke="black"
-          strokeWidth="4"
-        />
-        <path
-          d="M50 42 L50 22 L150 22 L150 42"
           fill="hsl(var(--card))"
           stroke="black"
           strokeWidth="4"
@@ -39,6 +33,22 @@ export function GuaranteeSealIcon(props: SVGProps<SVGSVGElement>) {
             fill="#2563eb"
             />
         </g>
+        
+        {/* Text inside shield - 7 DIAS */}
+        <text
+          x="100"
+          y="70"
+          textAnchor="middle"
+          dominantBaseline="middle"
+          fill="black"
+          style={{
+            fontSize: "36px",
+            fontFamily: "var(--font-headline)",
+            fontWeight: "bold",
+          }}
+        >
+          7 DIAS
+        </text>
 
         {/* Text on Ribbon */}
         <text
@@ -47,6 +57,10 @@ export function GuaranteeSealIcon(props: SVGProps<SVGSVGElement>) {
           textAnchor="middle"
           dominantBaseline="middle"
           fill="white"
+          stroke="black"
+          strokeWidth="1.5"
+          strokeLinejoin="round"
+          paintOrder="stroke"
           style={{
             fontSize: "28px",
             fontFamily: "var(--font-headline)",
@@ -57,30 +71,23 @@ export function GuaranteeSealIcon(props: SVGProps<SVGSVGElement>) {
         >
           GARANTIA
         </text>
-
-        {/* Text inside shield */}
+        
+        {/* Text inside shield - Satisfaction Guarantee */}
         <text
           x="100"
-          y="135"
+          y="140"
           textAnchor="middle"
           fill="black"
           style={{
-            fontSize: "18px",
+            fontSize: "10px",
             fontFamily: "var(--font-body)",
             fontWeight: "bold",
             textTransform: "uppercase",
           }}
         >
-          Sem Risco
+          <tspan x="100" dy="0">Satisfação ou seu</tspan>
+          <tspan x="100" dy="1.2em">dinheiro de volta</tspan>
         </text>
-
-        {/* Top decorations: small shield and stars */}
-        <g transform="translate(88, 50) scale(0.25)">
-          <path d="M12 2L2 6v10l10 4 10-4V6l-10-4z" fill="black"/>
-          <path d="M10.18,13.03L7.14,10l-3.04,3.03l-0.9-1.55l3.04-3.03L3.2,5.42l0.9-1.55l3.04,3.03L10.18,3.87l0.9,1.55l-3.04,3.03l3.04,3.03L10.18,13.03z" fill="white"/>
-        </g>
-        <text x="75" y="62" fontSize="12" fill="#3b82f6">★</text>
-        <text x="118" y="62" fontSize="12" fill="#3b82f6">★</text>
       </g>
     </svg>
   );
