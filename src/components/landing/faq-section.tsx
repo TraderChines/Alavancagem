@@ -8,7 +8,18 @@ import {
 const faqs = [
   {
     question: "O indicador funciona em qual plataforma?",
-    answer: "O indicador foi desenvolvido para qualquer plataforma de opções binarias. Ensinamos como instalar e conectar com sua corretora."
+    answer: (
+      <div className="space-y-2">
+        <p>O indicador foi desenvolvido para qualquer plataforma de opções binarias. Ensinamos como instalar e conectar com sua corretora.</p>
+        <p>📌 Se ainda não tem uma conta, recomendamos:</p>
+        <p>
+          Opção 1: <a href="https://exnova.com/lp/start-trading/?aff=198544&aff_model=revenue&afftrack=" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 break-all">https://exnova.com/lp/start-trading/?aff=198544&aff_model=revenue&afftrack=</a>
+        </p>
+        <p>
+          Opção 2: <a href="https://affiliate.iqbroker.com/redir/?aff=198544&aff_model=revenue&afftrack=" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80 break-all">https://affiliate.iqbroker.com/redir/?aff=198544&aff_model=revenue&afftrack=</a>
+        </p>
+      </div>
+    )
   },
   {
     question: "Preciso ter experiência para usar?",
