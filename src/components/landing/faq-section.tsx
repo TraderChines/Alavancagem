@@ -13,10 +13,10 @@ const faqs = [
         <p>O indicador foi desenvolvido para qualquer plataforma de opções binarias. Ensinamos como instalar e conectar com sua corretora.</p>
         <p>📌 Se ainda não tem uma conta, recomendamos:</p>
         <p>
-          <a href="https://exnova.com/lp/start-trading/?aff=198544&aff_model=revenue&afftrack=" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">Opção 1</a>: Cadastre-se na Exnova
+          <a href="https://exnova.com/lp/start-trading/?aff=198544&aff_model=revenue&afftrack=" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">Cadastre-se na Exnova</a>
         </p>
         <p>
-          <a href="https://affiliate.iqbroker.com/redir/?aff=198544&aff_model=revenue&afftrack=" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">Opção 2</a>: Cadastre-se na IQ Broker
+          <a href="https://affiliate.iqbroker.com/redir/?aff=198544&aff_model=revenue&afftrack=" target="_blank" rel="noopener noreferrer" className="text-primary underline hover:text-primary/80">Cadastre-se na IQ Broker</a>
         </p>
       </div>
     )
