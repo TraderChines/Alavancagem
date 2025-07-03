@@ -47,7 +47,7 @@ export function OfferSection() {
             
             <p className="text-sm text-muted-foreground mb-6">(Menos de R$ 0,66 por dia para ter uma ferramenta que coloca dinheiro no seu bolso!)</p>
 
-            <Button asChild size="lg" className="w-full font-headline text-xl animate-pulse shadow-lg">
+            <Button asChild size="lg" className="w-full font-headline text-lg animate-pulse shadow-lg">
               <a href="https://pay.kiwify.com.br/N2HRXHr">
                 🔥 QUERO GARANTIR MEU ACESSO COM DESCONTO! 🔥
               </a>
