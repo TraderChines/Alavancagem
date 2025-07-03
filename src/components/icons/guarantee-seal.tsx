@@ -34,7 +34,7 @@ export function GuaranteeSealIcon(props: SVGProps<SVGSVGElement>) {
             />
         </g>
         
-        {/* Text inside shield - 7 DIAS */}
+        {/* Text inside shield - 30 DIAS */}
         <text
           x="100"
           y="70"
@@ -47,7 +47,7 @@ export function GuaranteeSealIcon(props: SVGProps<SVGSVGElement>) {
             fontWeight: "bold",
           }}
         >
-          7 DIAS
+          30 DIAS
         </text>
 
         {/* Text on Ribbon */}
