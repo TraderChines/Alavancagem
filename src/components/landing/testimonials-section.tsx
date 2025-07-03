@@ -7,7 +7,7 @@ import Image from 'next/image';
 const rawTestimonials = [
   {
     name: "Mariana L.",
-    location: "Belo Horizonte, MG",
+    location: "Balneário Camboriú, SC",
     avatar: "https://placehold.co/100x100.png",
     text: "Eu era a rainha do \"quase\". Sempre analisava certo, mas entrava na hora errada. A Estratégia Chinesa mudou meu jogo! O sinal de seta é a confiança que eu precisava. Já recuperei o investimento no primeiro dia!"
   },
