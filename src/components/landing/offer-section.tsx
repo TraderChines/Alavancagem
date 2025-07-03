@@ -41,7 +41,7 @@ export function OfferSection() {
             <p className="mt-2 text-muted-foreground">O acesso completo, de <span className="line-through">R$497</span> por:</p>
             
             <div className="my-6">
-                <p className="text-6xl font-bold font-headline text-primary">12x R$19<span className="text-4xl align-top font-bold">,78</span></p>
+                <p className="text-6xl font-bold font-headline text-primary">12x de R$20<span className="text-4xl align-top font-bold">,37</span></p>
                 <p className="text-xl font-semibold mt-1">ou R$ 197,00 à vista</p>
             </div>
             
