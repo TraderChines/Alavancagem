@@ -37,14 +37,15 @@ export function OfferSection() {
           </Card>
 
           <div className="text-center p-8 bg-background rounded-lg shadow-lg">
-            <p className="text-muted-foreground">Tudo isso poderia facilmente ser vendido por R$ 497. Mas nosso objetivo é ajudar o maior número de traders a alcançar a consistência.</p>
-            <p className="mt-4 text-lg">Por isso, hoje, você terá acesso a tudo isso por um preço especial de lançamento:</p>
+            <p className="font-headline text-xl text-primary font-bold">OFERTA DE LANÇAMENTO</p>
+            <p className="mt-2 text-muted-foreground">O acesso completo, de <span className="line-through">R$497</span> por:</p>
             
-            <p className="my-4 text-muted-foreground line-through text-2xl">De R$ 497,00</p>
-            <p className="text-lg">por apenas:</p>
-            <p className="text-5xl font-bold font-headline text-primary my-2">12x de R$ 19,78</p>
-            <p className="text-xl">ou R$ 197,00 à vista</p>
-            <p className="text-sm text-muted-foreground mt-4 mb-6">(Menos de R$ 0,66 por dia para ter uma estratégia lucrativa nas suas mãos!)</p>
+            <div className="my-6">
+                <p className="text-6xl font-bold font-headline text-primary">12x R$19<span className="text-4xl align-top font-bold">,78</span></p>
+                <p className="text-xl font-semibold mt-1">ou R$ 197,00 à vista</p>
+            </div>
+            
+            <p className="text-sm text-muted-foreground mb-6">(Menos de R$ 0,66 por dia para ter uma ferramenta que coloca dinheiro no seu bolso!)</p>
 
             <Button asChild size="lg" className="w-full font-headline text-xl animate-pulse shadow-lg">
               <a href="https://pay.kiwify.com.br/N2HRXHr">
@@ -52,6 +53,7 @@ export function OfferSection() {
               </a>
             </Button>
             <p className="text-xs text-muted-foreground mt-3">Pagamento seguro. Acesso liberado imediatamente no seu e-mail.</p>
+            
             <div className="mt-6">
               <p className="text-sm text-primary font-bold">A OFERTA TERMINA EM:</p>
               <UrgencyTimer />
