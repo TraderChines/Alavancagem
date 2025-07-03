@@ -33,7 +33,7 @@ export async function TestimonialsSection() {
     <section id="testimonials" className="py-12 lg:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold font-headline mb-4">Veja o que Nossos Primeiros Alunos Estão Dizendo...</h2>
+          <h2 className="text-3xl lg:text-4xl font-bold font-headline mb-4">Veja o que os Traders Estão Dizendo...</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {testimonials.map((testimonial) => (
