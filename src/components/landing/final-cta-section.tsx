@@ -17,7 +17,7 @@ export function FinalCtaSection() {
         </div>
         <p className="text-xl font-headline mb-8">A escolha é sua.</p>
         <Button asChild size="lg" className="font-headline text-xl animate-pulse">
-          <a href="#offer">SIM, EU QUERO A ESTRATÉGIA CHINESA AGORA!</a>
+          <a href="https://pay.kiwify.com.br/N2HRXHr">SIM, EU QUERO A ESTRATÉGIA CHINESA AGORA!</a>
         </Button>
       </div>
     </section>

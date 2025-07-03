@@ -8,7 +8,7 @@ export function Header() {
       <div className="container mx-auto flex h-16 items-center justify-between px-4">
         <Logo />
         <Button asChild className="hidden sm:inline-flex font-headline">
-          <a href="#offer">
+          <a href="https://pay.kiwify.com.br/N2HRXHr">
             <Flame className="mr-2 h-4 w-4" />
             Pegar Acesso
           </a>

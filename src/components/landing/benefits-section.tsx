@@ -57,7 +57,7 @@ export function BenefitsSection() {
 
         <div className="text-center mt-12">
           <Button asChild size="lg" className="font-headline text-lg">
-            <a href="#offer">SIM, QUERO OPERAR COM MAIS CONFIANÇA!</a>
+            <a href="https://pay.kiwify.com.br/N2HRXHr">SIM, QUERO OPERAR COM MAIS CONFIANÇA!</a>
           </Button>
         </div>
       </div>

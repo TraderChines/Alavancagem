@@ -26,7 +26,7 @@ export function HeroSection() {
           O segredo dos traders consistentes não é a sorte. É ter uma ferramenta precisa que elimina a dúvida e aponta a direção do lucro. A Estratégia Chinesa faz exatamente isso por você.
         </p>
         <Button asChild size="lg" className="font-headline text-lg animate-pulse">
-          <a href="#offer">
+          <a href="https://pay.kiwify.com.br/N2HRXHr">
             👉 QUERO ACESSO IMEDIATO À ESTRATEGIA CHINESA
           </a>
         </Button>
