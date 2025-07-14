@@ -35,7 +35,7 @@ export function SolutionSection() {
             <div className="aspect-video bg-foreground relative">
               <iframe
                 className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/M6cTyPbDShw"
+                src="https://www.youtube.com/embed/1iAgu5fAod0"
                 title="Apresentação Indicador Estratégia Chinesa"
                 frameBorder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
