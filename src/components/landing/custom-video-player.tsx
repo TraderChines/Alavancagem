@@ -14,7 +14,7 @@ export function CustomVideoPlayer() {
   const playerRef = useRef<YouTubePlayer | null>(null);
   const progressIntervalRef = useRef<NodeJS.Timeout | null>(null);
 
-  const videoId = "-ho4g2EGb2w";
+  const videoId = "1iAgu5fAod0";
 
   useEffect(() => {
     return () => {
