@@ -1,5 +1,6 @@
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { CheckSquare, Goal, Waves } from "lucide-react";
+import { CustomVideoPlayer } from "./custom-video-player";
 
 const features = [
   {
@@ -31,17 +32,8 @@ export function SolutionSection() {
         </div>
 
         <div className="max-w-3xl mx-auto my-12">
-          <Card className="overflow-hidden shadow-lg">
-            <div className="aspect-video bg-foreground relative">
-              <iframe
-                className="absolute top-0 left-0 w-full h-full"
-                src="https://www.youtube.com/embed/1iAgu5fAod0"
-                title="Apresentação Indicador Estratégia Chinesa"
-                frameBorder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowFullScreen
-              ></iframe>
-            </div>
+          <Card className="overflow-hidden shadow-lg bg-foreground">
+             <CustomVideoPlayer />
           </Card>
         </div>
         
