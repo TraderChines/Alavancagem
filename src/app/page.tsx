@@ -19,10 +19,10 @@ export default function Home() {
       <div className="container mx-auto max-w-5xl space-y-12 text-center">
         <header className="space-y-4">
           <h1 className="text-4xl font-black tracking-tighter sm:text-5xl md:text-6xl lg:text-7xl font-headline">
-            🔥 SESSÃO CHINESA AO VIVO – A ESTRATÉGIA QUE MOVIMENTA O MERCADO
+            🔥 SESSÃO CHINESA AO VIVO <br /> A ESTRATÉGIA QUE MOVIMENTA O MERCADO
           </h1>
           <p className="max-w-3xl mx-auto text-lg text-muted-foreground sm:text-xl">
-            Participe de uma sessão privada onde traders operam juntos usando uma estratégia tão precisa que chega a manipular o gráfico a nosso favor. Você lucra comigo em tempo real — sem precisar operar sozinho.
+            Participe de uma sessão privada onde traders operam juntos usando uma estratégia tão precisa que chega a manipular o gráfico a nosso favor.<br />Não opere sozinho. Lucre comigo em tempo real.
           </p>
         </header>
 
