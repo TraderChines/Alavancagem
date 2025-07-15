@@ -1,3 +1,4 @@
+
 "use client";
 
 import React, { useState } from 'react';
@@ -5,7 +6,11 @@ import { Input } from '@/components/ui/input';
 import { Button } from '@/components/ui/button';
 import { useToast } from "@/hooks/use-toast";
 
-export function IdForm() {
+interface IdFormProps {
+  onIdSubmitted: () => void;
+}
+
+export function IdForm({ onIdSubmitted }: IdFormProps) {
   const [userId, setUserId] = useState('');
   const { toast } = useToast();
 
@@ -23,9 +28,10 @@ export function IdForm() {
     console.log('User ID Submitted:', userId);
     toast({
         title: "Enviado com Sucesso!",
-        description: "Seu ID foi enviado. Entraremos em contato em breve.",
+        description: "Seu ID foi enviado. Você foi para o próximo passo.",
     })
     setUserId('');
+    onIdSubmitted();
   };
 
   const handleInputChange = (e: React.ChangeEvent<HTMLInputElement>) => {
