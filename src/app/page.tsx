@@ -84,7 +84,7 @@ export default function Home() {
                 <div className="space-y-2 text-sm text-muted-foreground">
                   <p>Faça o depósito de no mínimo <span className="font-bold text-foreground">R$500</span>.</p>
                   <p>Você decide o valor.</p>
-                  <p>Lembrando que quanto maior a banca, maior a alavancagem.</p>
+                  <p>Lembrando que quanto maior a banca, maior os resultados.</p>
                 </div>
                  <Button asChild size="lg" className="w-full text-lg font-bold">
                   <Link href="https://t.me/TraderChinesVIP" target="_blank" rel="noopener noreferrer">
