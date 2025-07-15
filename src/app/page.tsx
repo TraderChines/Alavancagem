@@ -82,7 +82,7 @@ export default function Home() {
               </CardHeader>
               <CardContent className="space-y-4">
                 <div className="space-y-2 text-sm text-muted-foreground">
-                  <p>Faça o depósito de no mínimo <span className="font-bold text-foreground">R$500</span>.</p>
+                  <p>Faça o depósito de no mínimo <span className="font-bold text-foreground">R$60</span>.</p>
                   <p>Você decide o valor.</p>
                   <p>Lembrando que quanto maior a banca, maior os resultados.</p>
                 </div>
