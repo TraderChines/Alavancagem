@@ -8,6 +8,7 @@ import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function Home() {
   const [step, setStep] = useState(1);
+  const [createAccountClicked, setCreateAccountClicked] = useState(false);
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-4 sm:p-8 md:p-12 lg:p-24">
@@ -34,12 +35,18 @@ export default function Home() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <Button asChild size="lg" className="w-full text-lg font-bold">
+                <Button asChild size="lg" className="w-full text-lg font-bold" variant="default" style={{ backgroundColor: '#16a34a' }} onClick={() => setCreateAccountClicked(true)}>
                   <Link href="https://exnova.com/lp/start-trading/?aff=198544&aff_model=revenue&afftrack=" target="_blank" rel="noopener noreferrer">
                     👉 Criar Conta Agora
                   </Link>
                 </Button>
-                <Button size="lg" variant="outline" className="w-full text-lg font-bold" onClick={() => setStep(2)}>
+                <Button 
+                  size="lg" 
+                  variant={createAccountClicked ? 'default' : 'outline'} 
+                  className="w-full text-lg font-bold" 
+                  onClick={() => setStep(2)}
+                  disabled={!createAccountClicked}
+                >
                     Já criei, próximo passo
                 </Button>
               </CardContent>
