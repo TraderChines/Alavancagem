@@ -1,0 +1,26 @@
+
+# Comandos para atualizar e publicar seu site no GitHub
+
+# Instruções:
+# 1. Abra o terminal (ou Prompt de Comando/PowerShell).
+# 2. Navegue até a pasta do seu projeto.
+# 3. Copie e cole os comandos abaixo, um de cada vez, e pressione Enter após cada um.
+
+# ------------------------------------------------------------------------------------
+
+# Passo 1: Busca as atualizações mais recentes do GitHub para evitar erros.
+# Isso une as alterações de lá com as suas.
+git pull origin main
+
+# Passo 2: Adiciona todos os seus arquivos modificados para o próximo "pacote" de atualização.
+git add .
+
+# Passo 3: "Empacota" suas alterações com uma mensagem descritiva.
+git commit -m "Atualizando o site com as últimas modificações"
+
+# Passo 4: Envia e publica suas alterações no GitHub.
+git push origin main
+
+# ------------------------------------------------------------------------------------
+
+# Após executar o último comando, suas alterações estarão online no seu repositório do GitHub.
