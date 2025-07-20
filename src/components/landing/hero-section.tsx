@@ -6,7 +6,7 @@ export function HeroSection() {
     <section className="relative py-20 md:py-32 text-center text-white bg-foreground">
       <div className="absolute inset-0">
         <Image
-          src="https://placehold.co/1920x1080.png"
+          src="https://firebasestorage.googleapis.com/v0/b/project-1751519876458.appspot.com/o/studio%2F-Nyz9A9B9_57L2pBH_Fz%2F-O0S1vM-G5X_y66z_V0L-1723147814890-hero-background.png?alt=media&token=c1387693-02f8-4721-a58f-2f9540b6e088"
           alt="Gráfico de trading"
           layout="fill"
           objectFit="cover"
