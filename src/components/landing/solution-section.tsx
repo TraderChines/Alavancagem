@@ -10,7 +10,13 @@ const features = [
   },
   {
     icon: <CheckSquare className="h-8 w-8 text-primary" />,
-    title: "Sinal de Alerta (Pré-Sinal)",
+    title: (
+      <>
+        Sinal de Alerta
+        <br />
+        (Pré-Sinal)
+      </>
+    ),
     description: "Nunca mais perca uma oportunidade. Um alerta sonoro e visual te avisa ANTES da entrada se formar, para que você tenha tempo de se preparar sem pressa."
   },
   {
