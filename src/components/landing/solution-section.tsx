@@ -21,7 +21,7 @@ const features = [
   },
   {
     icon: <Goal className="h-8 w-8 text-primary" />,
-    title: "Sinal de Entrada Exato (Seta)",
+    title: "Sinal de Confirmação de Entrada",
     description: "O fim da hesitação! Uma seta clara e inequívoca (Verde para CALL, Vermelha para PUT) mostra o MOMENTO EXATO para você abrir a negociação. É só ver o sinal e clicar!"
   }
 ];
