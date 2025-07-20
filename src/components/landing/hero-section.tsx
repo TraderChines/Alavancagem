@@ -17,9 +17,7 @@ export function HeroSection() {
       </div>
       <div className="container mx-auto px-4 relative">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold font-headline mb-4 leading-tight">
-          <p>CANSADO DE TOMAR LOSS 
-          </p>
-         <p>E QUEBRAR A BANCA?</p> 
+          ALCANCE A CONSISTÊNCIA QUE VOCÊ SEMPRE BUSCOU NO TRADING
         </h1>
         <p className="text-xl md:text-2xl text-primary-foreground/80 max-w-3xl mx-auto mb-6">
           Descubra a Estratégia Chinesa: O indicador que revela o momento exato para entrar e vencer em Opções Binárias no M1, sem usar Martingale.
