@@ -14,7 +14,7 @@ const rawTestimonials = [
   {
     name: "Ricardo P.",
     location: "São Paulo, SP",
-    avatar: "https://placehold.co/100x100.png",
+    avatar: "https://firebasestorage.googleapis.com/v0/b/project-1751519876458.appspot.com/o/studio%2F-Nyz9A9B9_57L2pBH_Fz%2F-O0R-z4oG8x_4V6J8zCj-1723145942485-Ricardo_P.png?alt=media&token=42d131f4-a63e-4d51-a90e-b7d8b5c98d6b",
     text: "O melhor é que funciona mesmo em OTC. Final de semana agora é minha fonte de renda extra. E o principal: SEM MARTINGALE! Minha banca agradece. Recomendo demais."
   }
 ];
