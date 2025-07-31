@@ -23,7 +23,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="max-w-3xl mx-auto text-lg text-muted-foreground sm:text-xl">
-            Participe de uma sessão privada onde traders operam juntos usando uma estratégia tão precisa que chega a manipular o gráfico a nosso favor.<br />Não opere sozinho. Lucre comigo em tempo real.
+            Participe de uma sessão privada onde traders operam juntos usando uma estratégia tão precisa que chega a manipular o gráfico a nosso favor.<br />Não opere sozinho. Lucre com a gente em tempo real.
           </p>
         </header>
 
