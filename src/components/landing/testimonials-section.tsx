@@ -33,14 +33,14 @@ export async function TestimonialsSection() {
     <section id="testimonials" className="py-12 lg:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold font-headline mb-4">Veja o que os Traders Estão Dizendo...</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-headline mb-4">Veja o que os Traders Estão Dizendo...</h2>
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 max-w-4xl mx-auto">
           {testimonials.map((testimonial) => (
             <Card key={testimonial.name} className="flex flex-col p-6 shadow-lg">
               <CardContent className="p-0 flex-grow flex flex-col">
                 <blockquote className="flex-grow">
-                  <p className="text-muted-foreground text-lg">"{testimonial.highlightedText}"</p>
+                  <p className="text-muted-foreground italic text-base sm:text-lg">"{testimonial.highlightedText}"</p>
                 </blockquote>
                 <footer className="mt-6">
                   <div className="flex items-center">

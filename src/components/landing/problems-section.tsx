@@ -13,16 +13,16 @@ export function ProblemsSection() {
     <section id="problems" className="py-12 lg:py-24 bg-card">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto">
-          <h2 className="text-3xl lg:text-4xl font-bold text-center font-headline mb-10">Você se identifica com algum destes problemas?</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center font-headline mb-10">Você se identifica com algum destes problemas?</h2>
           <div className="space-y-4">
             {problems.map((problem, index) => (
               <div key={index} className="flex items-start p-4 bg-background rounded-lg shadow-sm">
                 <AlertTriangle className="h-6 w-6 text-accent mr-4 mt-1 flex-shrink-0" />
-                <p className="text-lg text-muted-foreground">{problem}</p>
+                <p className="text-base sm:text-lg text-muted-foreground">{problem}</p>
               </div>
             ))}
           </div>
-          <p className="text-center text-xl mt-10">
+          <p className="text-center text-lg sm:text-xl mt-10">
             Se você disse <span className="font-bold text-primary">"sim"</span> para qualquer uma dessas perguntas, você não está sozinho. E a boa notícia é que existe uma solução desenhada para você.
           </p>
         </div>

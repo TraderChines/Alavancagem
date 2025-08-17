@@ -38,7 +38,7 @@ export function SolutionSection() {
     <section id="solution" className="py-12 lg:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center max-w-3xl mx-auto">
-          <h2 className="text-3xl lg:text-4xl font-bold font-headline mb-4">Apresentamos o Indicador ESTRATEGIA CHINESA</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-headline mb-4">Apresentamos o Indicador ESTRATEGIA CHINESA</h2>
           <p className="text-lg text-muted-foreground mb-8">
             Uma ferramenta inteligente que combina a análise clássica de Suporte e Resistência com um algoritmo exclusivo de confirmação. Ele foi projetado para ser seu maior aliado no gráfico de M1, funcionando com precisão tanto no mercado aberto quanto no OTC.
           </p>
@@ -49,10 +49,10 @@ export function SolutionSection() {
              {!videoFinished ? (
                 <CustomVideoPlayer onVideoEnd={() => setVideoFinished(true)} />
              ) : (
-                <div className="aspect-video w-full flex flex-col items-center justify-center bg-black bg-opacity-80 p-8">
-                    <h3 className="text-2xl md:text-3xl font-bold font-headline text-white mb-4 text-center">Pronto para transformar seu jeito de operar?</h3>
-                    <p className="text-lg text-primary-foreground/80 mb-8 text-center">Clique no botão abaixo para garantir seu acesso imediato.</p>
-                    <Button asChild size="lg" className="w-full max-w-md font-headline text-xl animate-pulse shadow-lg">
+                <div className="aspect-video w-full flex flex-col items-center justify-center bg-black bg-opacity-80 p-8 text-center">
+                    <h3 className="text-2xl md:text-3xl font-bold font-headline text-white mb-4">Pronto para transformar seu jeito de operar?</h3>
+                    <p className="text-lg text-primary-foreground/80 mb-8">Clique no botão abaixo para garantir seu acesso imediato.</p>
+                    <Button asChild size="lg" className="w-full max-w-md font-headline text-lg sm:text-xl animate-pulse shadow-lg">
                         <a href="https://pay.kiwify.com.br/N2HRXHr">
                             🔥 SIM, QUERO ACESSO IMEDIATO! 🔥
                         </a>
@@ -69,9 +69,9 @@ export function SolutionSection() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {features.map((feature, index) => (
             <Card key={index}>
-              <CardHeader className="flex flex-row items-center gap-4">
+              <CardHeader className="flex flex-col sm:flex-row items-center gap-4 text-center sm:text-left">
                 {feature.icon}
-                <CardTitle className="font-headline">{feature.title}</CardTitle>
+                <CardTitle className="font-headline text-xl">{feature.title}</CardTitle>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground">{feature.description}</p>

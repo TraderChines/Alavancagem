@@ -16,7 +16,7 @@ export function OfferSection() {
     <section id="offer" className="py-12 lg:py-24 bg-card">
       <div className="container mx-auto px-4">
         <div className="max-w-3xl mx-auto text-center">
-          <h2 className="text-3xl lg:text-4xl font-bold font-headline mb-4">O que Você Vai Receber com o Acesso Imediato:</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-headline mb-4">O que Você Vai Receber com o Acesso Imediato:</h2>
         </div>
 
         <div className="grid md:grid-cols-2 gap-8 lg:gap-12 mt-12 max-w-5xl mx-auto items-center">
@@ -36,18 +36,18 @@ export function OfferSection() {
             </CardContent>
           </Card>
 
-          <div className="text-center p-8 bg-background rounded-lg shadow-lg">
+          <div className="text-center p-6 sm:p-8 bg-background rounded-lg shadow-lg">
             <p className="font-headline text-xl text-primary font-bold">OFERTA DE LANÇAMENTO</p>
             <p className="mt-2 text-muted-foreground">O acesso completo, de <span className="line-through">R$497</span> por:</p>
             
             <div className="my-6">
-                <p className="text-6xl font-bold font-headline text-primary">12x de R$20<span className="text-4xl align-top font-bold">,37</span></p>
-                <p className="text-xl font-semibold mt-1">ou R$ 197,00 à vista</p>
+                <p className="text-5xl sm:text-6xl font-bold font-headline text-primary">12x de R$20<span className="text-3xl sm:text-4xl align-top font-bold">,37</span></p>
+                <p className="text-lg sm:text-xl font-semibold mt-1">ou R$ 197,00 à vista</p>
             </div>
             
             <p className="text-sm text-muted-foreground mb-6">(Menos de R$ 0,66 por dia para ter uma ferramenta que coloca dinheiro no seu bolso!)</p>
 
-            <Button asChild size="lg" className="w-full font-headline text-lg animate-pulse shadow-lg">
+            <Button asChild size="lg" className="w-full font-headline text-base sm:text-lg animate-pulse shadow-lg">
               <a href="https://pay.kiwify.com.br/N2HRXHr">
                 🔥 QUERO GARANTIR MEU ACESSO COM DESCONTO! 🔥
               </a>

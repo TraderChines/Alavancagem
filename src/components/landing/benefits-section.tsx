@@ -30,13 +30,13 @@ export function BenefitsSection() {
     <section id="benefits" className="py-12 lg:py-24 bg-background">
       <div className="container mx-auto px-4">
         <div className="text-center mb-12">
-          <h2 className="text-3xl lg:text-4xl font-bold font-headline mb-4">Por que a Estratégia Chinesa é Diferente de Tudo o que Você Já Viu?</h2>
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-headline mb-4">Por que a Estratégia Chinesa é Diferente de Tudo o que Você Já Viu?</h2>
         </div>
         
         <div className="max-w-4xl mx-auto">
           <Card>
-            <CardHeader>
-              <div className="grid grid-cols-2 font-bold font-headline p-4 text-left">
+            <CardHeader className="hidden md:block">
+              <div className="grid grid-cols-2 font-bold font-headline p-4 text-left text-lg">
                 <p>Característica</p>
                 <p>Seu Benefício Direto</p>
               </div>
@@ -46,9 +46,9 @@ export function BenefitsSection() {
                 <div key={index} className="grid grid-cols-1 md:grid-cols-2 gap-4 p-4 items-start">
                   <div className="flex items-center gap-3">
                     <CheckCircle2 className="h-6 w-6 text-primary flex-shrink-0" />
-                    <p className="font-bold">{item.feature}</p>
+                    <p className="font-bold text-base md:text-lg">{item.feature}</p>
                   </div>
-                  <p className="text-muted-foreground">{item.benefit}</p>
+                  <p className="text-muted-foreground pl-9 md:pl-0">{item.benefit}</p>
                 </div>
               ))}
             </CardContent>
@@ -56,7 +56,7 @@ export function BenefitsSection() {
         </div>
 
         <div className="text-center mt-12">
-          <Button asChild size="lg" className="font-headline text-lg">
+          <Button asChild size="lg" className="font-headline text-lg w-full sm:w-auto">
             <a href="https://pay.kiwify.com.br/N2HRXHr">SIM, QUERO OPERAR COM MAIS CONFIANÇA!</a>
           </Button>
         </div>

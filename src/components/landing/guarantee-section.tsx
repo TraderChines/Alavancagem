@@ -6,10 +6,10 @@ export function GuaranteeSection() {
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-12 max-w-4xl mx-auto">
           <div className="flex-shrink-0">
-            <GuaranteeSealIcon className="w-48 h-48" />
+            <GuaranteeSealIcon className="w-40 h-40 sm:w-48 sm:h-48" />
           </div>
           <div className="text-center md:text-left">
-            <h2 className="text-3xl lg:text-4xl font-bold font-headline mb-4">Seu Risco é ZERO!</h2>
+            <h2 className="text-3xl sm:text-4xl lg:text-5xl font-bold font-headline mb-4">Seu Risco é ZERO!</h2>
             <p className="text-lg text-muted-foreground mb-4">
               Temos total confiança na eficácia da Estratégia Chinesa. Por isso, oferecemos uma <strong>Garantia Incondicional de 30 Dias.</strong>
             </p>
