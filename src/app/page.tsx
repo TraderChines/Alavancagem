@@ -1,14 +1,19 @@
-
 "use client";
 
 import Link from 'next/link';
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 
 export default function Home() {
   const [step, setStep] = useState(1);
   const [createAccountClicked, setCreateAccountClicked] = useState(false);
+
+  const handleCreateAccountClick = () => {
+    setTimeout(() => {
+      setCreateAccountClicked(true);
+    }, 3000);
+  };
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-center p-4 sm:p-8 md:p-12 lg:p-24">
@@ -23,7 +28,7 @@ export default function Home() {
             </span>
           </h1>
           <p className="max-w-3xl mx-auto text-lg text-muted-foreground sm:text-xl">
-            Participe de uma sessão privada onde traders operam juntos usando uma estratégia tão precisa que chega a manipular o gráfico a nosso favor.<br />Não opere sozinho. Lucre com a gente em tempo real.
+            Participe de uma sessão privada onde traders operam juntos usando uma estratégia tão precisa que chega a manipular o gráfico a nosso favor. Não opere sozinho. Lucre com a gente em tempo real.
           </p>
         </header>
 
@@ -40,7 +45,7 @@ export default function Home() {
                 </CardTitle>
               </CardHeader>
               <CardContent className="space-y-4">
-                <Button asChild size="lg" className="w-full text-lg font-bold" variant="default" style={{ backgroundColor: '#16a34a' }} onClick={() => setCreateAccountClicked(true)}>
+                <Button asChild size="lg" className="w-full text-lg font-bold" variant="default" style={{ backgroundColor: '#16a34a' }} onClick={handleCreateAccountClick}>
                   <Link href="https://exnova.com/lp/start-trading/?aff=198544&aff_model=revenue&afftrack=" target="_blank" rel="noopener noreferrer">
                     👉 Criar Conta Agora
                   </Link>
