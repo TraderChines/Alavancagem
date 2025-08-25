@@ -1,0 +1,27 @@
+# Comandos para atualizar seu projeto no GitHub
+
+Olá! Para enviar as últimas alterações da sua página para o seu repositório no GitHub, siga os passos abaixo.
+
+Abra o terminal na pasta do seu projeto e execute os seguintes comandos na ordem em que aparecem. Eles garantem que seu repositório local e o remoto (no GitHub) estejam sincronizados antes de enviar suas novas alterações.
+
+---
+
+# 1. Baixar as últimas alterações do GitHub
+# (Isso evita erros de "non-fast-forward" caso haja alguma atualização online que você não tenha)
+git pull origin main
+
+# 2. Adicionar todos os arquivos modificados
+# (O ponto "." significa "todos os arquivos nesta pasta e subpastas")
+git add .
+
+# 3. Criar um "commit" (um ponto de salvamento)
+# (Você pode mudar a mensagem dentro das aspas para descrever o que você alterou)
+git commit -m "Finalizando ajustes na página e adicionando delay"
+
+# 4. Enviar (publicar) suas alterações para o GitHub
+# (Este é o comando que efetivamente envia o código para o repositório online)
+git push origin main
+
+---
+
+Depois de executar esses comandos, suas alterações estarão seguras e atualizadas no GitHub!
